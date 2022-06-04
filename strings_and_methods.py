@@ -16,3 +16,9 @@ name.lower()
 # another method is replace(old, new, [count]) OLD and NEW is req. arguments!
 races = " 3kilometers 5kilometers"
 races.replace("kilometers", "km")
+
+# Find method .find() => str.find(sub[, start[,end]]) it gives us it's index.
+races.find("k")
+
+# we can chain methods together
+# for example: something.strip().lower()
