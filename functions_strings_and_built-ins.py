@@ -11,5 +11,6 @@ word = "Chicken"
 print(len(word))
 
 # Another useful built in function is input()
-my_name = input("What is your name?")
-print(my_name)
+first_name = input("What is your name?")
+last_name = input("What is your last name?")
+print("Hey there " + first_name + " " + last_name)
