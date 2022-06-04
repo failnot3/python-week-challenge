@@ -6,3 +6,6 @@
 # help("int") is an another built in function!
 
 # Arguments are inputs we provide to a function.
+
+word = "Chicken"
+print(len(word))
