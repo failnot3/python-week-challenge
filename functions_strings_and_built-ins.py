@@ -14,3 +14,12 @@ print(len(word))
 first_name = input("What is your name?")
 last_name = input("What is your last name?")
 print("Hey there " + first_name + " " + last_name)
+
+# Convert string to number
+age = "26"
+demo = int(age) * 265
+print(demo)
+
+# example types to convert - int("put a string here") to a whole number a.k.a. integer
+# float("3.3")
+# str(44.5)
